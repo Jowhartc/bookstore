@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: #000000;
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.nav button{
+    height: 35px;
+    width: 220px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #000000;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    color: #61892f;
+}
+.col1 a:hover{
+    letter-spacing: 10px;
+}
+
+
+.row{
+    display: flex;
+}
+
+.col1{
+    background-color: rgb(33, 33, 33);
+    height: 695px;
+    width: 400px;
+    background-size: cover;
+    
+}
+.col1 a{
+    height: 58px;
+    padding: 10px;
+    padding-left: 90px;
+    border: 1px;
+    margin-top: 35px;
+    color: #61892f;
+    font-size: 1.1rem;
+    border-radius: 0px 50px 50px 0px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    transition: 2s;
+    background-color: rgb(33, 33, 33);
+
+}
+.col1 a:hover{
+    background-color: #61892f;
+    transition: 1.5s;
+    color: black;
+}
+
+
+.col2{
+    background-color: rgb(33, 33, 33);
+    background-size: contain;
+    width: 1190px;
+    height: 695px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.all{
+    background-color: rgb(33, 33, 33);
+    height: 1060px;
+}
+h2{
+    padding: 50px;
+    transition: 5.5s;
+    color: #61892f;
+    font-size: 2REM;
+    
+}
+h2:hover{
+    letter-spacing: 40px;
+    transition: 0.9s;
+}
+
+.row
+{
+    
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(33, 33, 33);
+    height: 390px;
+}
+
+
+img
+{
+    width: 250px;
+    box-shadow: #61892f 10PX 10PX;
+    
+}
+
+
+.main0
+{
+    
+    width: 280px;
+    height: 380px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.overlay{
+    color: #ffffff;
+    width: 100%;
+    opacity:0; 
+    transition: .7s ease;
+    font-size: 25px;
+    margin-top: -350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+
+.main0:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+    opacity: .2;
+}
+.main0:hover .overlay{
+    opacity: 10000;
+    transition: 1.5s;
+}
+p{
+    font-size: x-small;
+    margin-top: 40px;
+}
+
+
